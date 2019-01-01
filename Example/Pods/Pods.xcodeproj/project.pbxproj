@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169B16CE5853C99E763B792A3DA97600 /* Pods-SHNDDateFormatter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36945231FD9DC13AB9CB8D3822E1E71B /* Pods-SHNDDateFormatter_Tests-dummy.m */; };
+		2BAFA844F9C03C4D6378C6A88DB1330F /* Pods-SHNDDateFormatter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B90D47DA85687D864939F649EE7C5B0 /* Pods-SHNDDateFormatter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C83DA05D29DEEC629DFE9D7E20EB0AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2F4A2F2021DB629B00DEB1FF /* SHNDDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F1F21DB629B00DEB1FF /* SHNDDateFormatter.swift */; };
+		2F4A2F2221DB62E200DEB1FF /* SHNDDateStringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F2121DB62E200DEB1FF /* SHNDDateStringBuilder.swift */; };
+		4C5009C37F8D5DECD03BD3966F0AD67C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60574CB4080D5954CE32EDEF171A9AE /* ReplaceMe.swift */; };
+		6F5CE5A6A62E1F8A7418A912F5D5EAA7 /* SHNDDateFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9657A5F2C5BAB6B0BF80CE5A90ED14D /* SHNDDateFormatter-dummy.m */; };
+		8D53D9E1675BCC069D1C842898335034 /* SHNDDateFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1810A9AAC8C499483D176426670605D /* SHNDDateFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97ABD490ED4752E2052799DBBF213094 /* Pods-SHNDDateFormatter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CDA842F2D7D150D333A0F8AA3B7460 /* Pods-SHNDDateFormatter_Example-dummy.m */; };
+		B2FAFAF8509367DB215975906C7DDE4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B6EABAA1218FF5406B1A63B52039D511 /* Pods-SHNDDateFormatter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C498B3C5D5E769B297BCF6175F1408 /* Pods-SHNDDateFormatter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD79A225780AA24E2BE180C9E40941BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53CA96E7EAF4B2960EBB8C05AB869798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD68E5C884DA69A52B217F8C007437FF;
+			remoteInfo = "Pods-SHNDDateFormatter_Example";
+		};
+		A67B9F7C3BCADAA780F29F9115FA3162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3E2F3BEDFB24A7BDEFC4CAEC7B7B0D;
+			remoteInfo = SHNDDateFormatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B90D47DA85687D864939F649EE7C5B0 /* Pods-SHNDDateFormatter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHNDDateFormatter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1E2E2C4EBD7DD9FB6795450052B23FCF /* SHNDDateFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHNDDateFormatter.xcconfig; sourceTree = "<group>"; };
+		28C5C866FD418C963AEA4E7BD030DC6F /* SHNDDateFormatter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SHNDDateFormatter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2B0FC0BB0721394F2C0C8EF79D6D29D7 /* Pods-SHNDDateFormatter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDDateFormatter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2F4A2F1F21DB629B00DEB1FF /* SHNDDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDDateFormatter.swift; path = SHNDDateFormatter/Classes/SHNDDateFormatter.swift; sourceTree = "<group>"; };
+		2F4A2F2121DB62E200DEB1FF /* SHNDDateStringBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDDateStringBuilder.swift; path = SHNDDateFormatter/Classes/SHNDDateStringBuilder.swift; sourceTree = "<group>"; };
+		36945231FD9DC13AB9CB8D3822E1E71B /* Pods-SHNDDateFormatter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHNDDateFormatter_Tests-dummy.m"; sourceTree = "<group>"; };
+		384E2C60871E8EFACBA80166A48DAD96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		39D4CB4BE3102DB286A686D57873B3AD /* Pods-SHNDDateFormatter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHNDDateFormatter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CCDF04496E15E8FC38F9E033BA436C3 /* Pods-SHNDDateFormatter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDDateFormatter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		471824FEF6ECEE3DC1BC1B835FE7C9C5 /* Pods-SHNDDateFormatter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDDateFormatter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		58F0B9122C229F389ECC90D993F8AC1F /* Pods-SHNDDateFormatter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHNDDateFormatter_Example.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D3F3CC5D6EBFF4D8BAEC0C71647D157 /* Pods-SHNDDateFormatter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDDateFormatter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		64257727F162CE938E002C9DDC0644E0 /* Pods-SHNDDateFormatter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDDateFormatter_Tests-resources.sh"; sourceTree = "<group>"; };
+		64C498B3C5D5E769B297BCF6175F1408 /* Pods-SHNDDateFormatter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHNDDateFormatter_Example-umbrella.h"; sourceTree = "<group>"; };
+		73CDA842F2D7D150D333A0F8AA3B7460 /* Pods-SHNDDateFormatter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHNDDateFormatter_Example-dummy.m"; sourceTree = "<group>"; };
+		7DDBFEFAA2E5362FE99755F2C3C90D60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EB8956C923C67FA9AED380E327AE8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96E0A6039F12355D75B31558BE51816D /* Pods-SHNDDateFormatter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHNDDateFormatter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FCD042EA1234E3D52CD42A6E7A8B82D /* SHNDDateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHNDDateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60574CB4080D5954CE32EDEF171A9AE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SHNDDateFormatter/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		A8F54B2227F7AEE4B8F5F6B10EB36ED6 /* Pods_SHNDDateFormatter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHNDDateFormatter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4641BD5A5DA9E2124FC60511629BAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1810A9AAC8C499483D176426670605D /* SHNDDateFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHNDDateFormatter-umbrella.h"; sourceTree = "<group>"; };
+		B23A9D9EC90560B4DB2C9DD5B734CD1F /* Pods_SHNDDateFormatter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHNDDateFormatter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B287B799ECA7BE9FBB5276210E9D1C6F /* Pods-SHNDDateFormatter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHNDDateFormatter_Tests.modulemap"; sourceTree = "<group>"; };
+		C13D41FC7DEDE5D144BFF20D246D6CA8 /* Pods-SHNDDateFormatter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDDateFormatter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C77A773FDA78F7C82FF71B6F609FF298 /* Pods-SHNDDateFormatter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHNDDateFormatter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C78B34A6458CF03A1CD5765CB8BC1656 /* SHNDDateFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHNDDateFormatter.modulemap; sourceTree = "<group>"; };
+		C9657A5F2C5BAB6B0BF80CE5A90ED14D /* SHNDDateFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHNDDateFormatter-dummy.m"; sourceTree = "<group>"; };
+		D2AB5141AABB19A0E2B458F5CA71CE5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C582CB1883027BA6B61B339EA43D08 /* Pods-SHNDDateFormatter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHNDDateFormatter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5106531187116B4C6272818AFEB378B /* Pods-SHNDDateFormatter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDDateFormatter_Example-resources.sh"; sourceTree = "<group>"; };
+		E790AF159C3A7EB6D16877567D5CFB1A /* Pods-SHNDDateFormatter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDDateFormatter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EDA2355CF7038082ACCB138684EEA32E /* SHNDDateFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHNDDateFormatter-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05A58BB207D071496F8F014D690D04FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C83DA05D29DEEC629DFE9D7E20EB0AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C2106067BE62FEC92DA978E5272329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FAFAF8509367DB215975906C7DDE4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34EAE761754143AF8CB8B2F9E5D75C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD79A225780AA24E2BE180C9E40941BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263B08FDE9A344244D4BD53EDEC91099 /* SHNDDateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				A60574CB4080D5954CE32EDEF171A9AE /* ReplaceMe.swift */,
+				2727258E759BC04280A1A18A3FAE1B1E /* Pod */,
+				F1CD6DD7CE58A6D43352B20F7289C40B /* Support Files */,
+				2F4A2F1F21DB629B00DEB1FF /* SHNDDateFormatter.swift */,
+				2F4A2F2121DB62E200DEB1FF /* SHNDDateStringBuilder.swift */,
+			);
+			name = SHNDDateFormatter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2727258E759BC04280A1A18A3FAE1B1E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				384E2C60871E8EFACBA80166A48DAD96 /* LICENSE */,
+				81EB8956C923C67FA9AED380E327AE8A /* README.md */,
+				28C5C866FD418C963AEA4E7BD030DC6F /* SHNDDateFormatter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3F21EE7BCD590AE752752E0B7E37BA1D /* Pods-SHNDDateFormatter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D2AB5141AABB19A0E2B458F5CA71CE5A /* Info.plist */,
+				58F0B9122C229F389ECC90D993F8AC1F /* Pods-SHNDDateFormatter_Example.modulemap */,
+				39D4CB4BE3102DB286A686D57873B3AD /* Pods-SHNDDateFormatter_Example-acknowledgements.markdown */,
+				96E0A6039F12355D75B31558BE51816D /* Pods-SHNDDateFormatter_Example-acknowledgements.plist */,
+				73CDA842F2D7D150D333A0F8AA3B7460 /* Pods-SHNDDateFormatter_Example-dummy.m */,
+				3CCDF04496E15E8FC38F9E033BA436C3 /* Pods-SHNDDateFormatter_Example-frameworks.sh */,
+				E5106531187116B4C6272818AFEB378B /* Pods-SHNDDateFormatter_Example-resources.sh */,
+				64C498B3C5D5E769B297BCF6175F1408 /* Pods-SHNDDateFormatter_Example-umbrella.h */,
+				C13D41FC7DEDE5D144BFF20D246D6CA8 /* Pods-SHNDDateFormatter_Example.debug.xcconfig */,
+				E790AF159C3A7EB6D16877567D5CFB1A /* Pods-SHNDDateFormatter_Example.release.xcconfig */,
+			);
+			name = "Pods-SHNDDateFormatter_Example";
+			path = "Target Support Files/Pods-SHNDDateFormatter_Example";
+			sourceTree = "<group>";
+		};
+		5B19E8A9C40690366A395078CEEA0576 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F21EE7BCD590AE752752E0B7E37BA1D /* Pods-SHNDDateFormatter_Example */,
+				D1682187CA17D2B4D10A18EFEA619AC8 /* Pods-SHNDDateFormatter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F58A3CD7775616754AB2A7EDCE6D3A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23A9D9EC90560B4DB2C9DD5B734CD1F /* Pods_SHNDDateFormatter_Example.framework */,
+				A8F54B2227F7AEE4B8F5F6B10EB36ED6 /* Pods_SHNDDateFormatter_Tests.framework */,
+				9FCD042EA1234E3D52CD42A6E7A8B82D /* SHNDDateFormatter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DE6BE774CED6A597C7D5CFCA5276EB6C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6F58A3CD7775616754AB2A7EDCE6D3A2 /* Products */,
+				5B19E8A9C40690366A395078CEEA0576 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1682187CA17D2B4D10A18EFEA619AC8 /* Pods-SHNDDateFormatter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7DDBFEFAA2E5362FE99755F2C3C90D60 /* Info.plist */,
+				B287B799ECA7BE9FBB5276210E9D1C6F /* Pods-SHNDDateFormatter_Tests.modulemap */,
+				C77A773FDA78F7C82FF71B6F609FF298 /* Pods-SHNDDateFormatter_Tests-acknowledgements.markdown */,
+				D3C582CB1883027BA6B61B339EA43D08 /* Pods-SHNDDateFormatter_Tests-acknowledgements.plist */,
+				36945231FD9DC13AB9CB8D3822E1E71B /* Pods-SHNDDateFormatter_Tests-dummy.m */,
+				2B0FC0BB0721394F2C0C8EF79D6D29D7 /* Pods-SHNDDateFormatter_Tests-frameworks.sh */,
+				64257727F162CE938E002C9DDC0644E0 /* Pods-SHNDDateFormatter_Tests-resources.sh */,
+				0B90D47DA85687D864939F649EE7C5B0 /* Pods-SHNDDateFormatter_Tests-umbrella.h */,
+				471824FEF6ECEE3DC1BC1B835FE7C9C5 /* Pods-SHNDDateFormatter_Tests.debug.xcconfig */,
+				5D3F3CC5D6EBFF4D8BAEC0C71647D157 /* Pods-SHNDDateFormatter_Tests.release.xcconfig */,
+			);
+			name = "Pods-SHNDDateFormatter_Tests";
+			path = "Target Support Files/Pods-SHNDDateFormatter_Tests";
+			sourceTree = "<group>";
+		};
+		DE6BE774CED6A597C7D5CFCA5276EB6C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				263B08FDE9A344244D4BD53EDEC91099 /* SHNDDateFormatter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F1CD6DD7CE58A6D43352B20F7289C40B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC4641BD5A5DA9E2124FC60511629BAA /* Info.plist */,
+				C78B34A6458CF03A1CD5765CB8BC1656 /* SHNDDateFormatter.modulemap */,
+				1E2E2C4EBD7DD9FB6795450052B23FCF /* SHNDDateFormatter.xcconfig */,
+				C9657A5F2C5BAB6B0BF80CE5A90ED14D /* SHNDDateFormatter-dummy.m */,
+				EDA2355CF7038082ACCB138684EEA32E /* SHNDDateFormatter-prefix.pch */,
+				B1810A9AAC8C499483D176426670605D /* SHNDDateFormatter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SHNDDateFormatter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C8A0924BC64676BC630EBDAD51EC01D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAFA844F9C03C4D6378C6A88DB1330F /* Pods-SHNDDateFormatter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED494174A1FD5D68F2F062E1D01D380D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EABAA1218FF5406B1A63B52039D511 /* Pods-SHNDDateFormatter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD2D2E736D74EE17B67F33A7ECF36F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D53D9E1675BCC069D1C842898335034 /* SHNDDateFormatter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9CBA5445197C187FFC7A17522FBDAC7E /* Pods-SHNDDateFormatter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFBFC5DB1916F33536D2B7286EF1BA9 /* Build configuration list for PBXNativeTarget "Pods-SHNDDateFormatter_Tests" */;
+			buildPhases = (
+				C8A0924BC64676BC630EBDAD51EC01D0 /* Headers */,
+				2FED55F78461DAE62ACAB236003C972D /* Sources */,
+				C1C2106067BE62FEC92DA978E5272329 /* Frameworks */,
+				C0D5ED76DBB69162EE418F644D699894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F89C6670EB2020BF93FBB99FD43457 /* PBXTargetDependency */,
+			);
+			name = "Pods-SHNDDateFormatter_Tests";
+			productName = "Pods-SHNDDateFormatter_Tests";
+			productReference = A8F54B2227F7AEE4B8F5F6B10EB36ED6 /* Pods_SHNDDateFormatter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF3E2F3BEDFB24A7BDEFC4CAEC7B7B0D /* SHNDDateFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013CD6038B25D1F16CAD64B8F2EF7070 /* Build configuration list for PBXNativeTarget "SHNDDateFormatter" */;
+			buildPhases = (
+				FBD2D2E736D74EE17B67F33A7ECF36F3 /* Headers */,
+				0005E8D7F827D5DFDBFC466B1F50BEA2 /* Sources */,
+				C34EAE761754143AF8CB8B2F9E5D75C8 /* Frameworks */,
+				51A59359EA3E2A0D09B5502A06E79E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHNDDateFormatter;
+			productName = SHNDDateFormatter;
+			productReference = 9FCD042EA1234E3D52CD42A6E7A8B82D /* SHNDDateFormatter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD68E5C884DA69A52B217F8C007437FF /* Pods-SHNDDateFormatter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE78DAC543FDE3820A53846491B83C /* Build configuration list for PBXNativeTarget "Pods-SHNDDateFormatter_Example" */;
+			buildPhases = (
+				ED494174A1FD5D68F2F062E1D01D380D /* Headers */,
+				8FFF79E22E9245740EAC8702350E3B9C /* Sources */,
+				05A58BB207D071496F8F014D690D04FF /* Frameworks */,
+				9A3C7232FEE6BBAB20F7A454C66DFC22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAB11EAF1C76E7159B490DF889E4D5D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SHNDDateFormatter_Example";
+			productName = "Pods-SHNDDateFormatter_Example";
+			productReference = B23A9D9EC90560B4DB2C9DD5B734CD1F /* Pods_SHNDDateFormatter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6F58A3CD7775616754AB2A7EDCE6D3A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD68E5C884DA69A52B217F8C007437FF /* Pods-SHNDDateFormatter_Example */,
+				9CBA5445197C187FFC7A17522FBDAC7E /* Pods-SHNDDateFormatter_Tests */,
+				EF3E2F3BEDFB24A7BDEFC4CAEC7B7B0D /* SHNDDateFormatter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51A59359EA3E2A0D09B5502A06E79E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3C7232FEE6BBAB20F7A454C66DFC22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D5ED76DBB69162EE418F644D699894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0005E8D7F827D5DFDBFC466B1F50BEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5009C37F8D5DECD03BD3966F0AD67C /* ReplaceMe.swift in Sources */,
+				2F4A2F2021DB629B00DEB1FF /* SHNDDateFormatter.swift in Sources */,
+				6F5CE5A6A62E1F8A7418A912F5D5EAA7 /* SHNDDateFormatter-dummy.m in Sources */,
+				2F4A2F2221DB62E200DEB1FF /* SHNDDateStringBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FED55F78461DAE62ACAB236003C972D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169B16CE5853C99E763B792A3DA97600 /* Pods-SHNDDateFormatter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFF79E22E9245740EAC8702350E3B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97ABD490ED4752E2052799DBBF213094 /* Pods-SHNDDateFormatter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59F89C6670EB2020BF93FBB99FD43457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SHNDDateFormatter_Example";
+			target = FD68E5C884DA69A52B217F8C007437FF /* Pods-SHNDDateFormatter_Example */;
+			targetProxy = 53CA96E7EAF4B2960EBB8C05AB869798 /* PBXContainerItemProxy */;
+		};
+		BAB11EAF1C76E7159B490DF889E4D5D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHNDDateFormatter;
+			target = EF3E2F3BEDFB24A7BDEFC4CAEC7B7B0D /* SHNDDateFormatter */;
+			targetProxy = A67B9F7C3BCADAA780F29F9115FA3162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05E8071DD88B6E8E77491F5984B0F380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2E2C4EBD7DD9FB6795450052B23FCF /* SHNDDateFormatter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SHNDDateFormatter/SHNDDateFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SHNDDateFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SHNDDateFormatter/SHNDDateFormatter.modulemap";
+				PRODUCT_MODULE_NAME = SHNDDateFormatter;
+				PRODUCT_NAME = SHNDDateFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		072702819E5390E05DE003E5E442BF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13D41FC7DEDE5D144BFF20D246D6CA8 /* Pods-SHNDDateFormatter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SHNDDateFormatter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SHNDDateFormatter_Example/Pods-SHNDDateFormatter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B32FCDD26AF1473B64DA83DE6D4F273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2E2C4EBD7DD9FB6795450052B23FCF /* SHNDDateFormatter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SHNDDateFormatter/SHNDDateFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SHNDDateFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SHNDDateFormatter/SHNDDateFormatter.modulemap";
+				PRODUCT_MODULE_NAME = SHNDDateFormatter;
+				PRODUCT_NAME = SHNDDateFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20CE582E2E6239043462AE84B320FDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3F3CC5D6EBFF4D8BAEC0C71647D157 /* Pods-SHNDDateFormatter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SHNDDateFormatter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SHNDDateFormatter_Tests/Pods-SHNDDateFormatter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5850A1ECF8CA1FEE005A1249F4325159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 471824FEF6ECEE3DC1BC1B835FE7C9C5 /* Pods-SHNDDateFormatter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SHNDDateFormatter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SHNDDateFormatter_Tests/Pods-SHNDDateFormatter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F9F7CD42640D07EA34E707292768DAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E790AF159C3A7EB6D16877567D5CFB1A /* Pods-SHNDDateFormatter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SHNDDateFormatter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SHNDDateFormatter_Example/Pods-SHNDDateFormatter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013CD6038B25D1F16CAD64B8F2EF7070 /* Build configuration list for PBXNativeTarget "SHNDDateFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B32FCDD26AF1473B64DA83DE6D4F273 /* Debug */,
+				05E8071DD88B6E8E77491F5984B0F380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFBFC5DB1916F33536D2B7286EF1BA9 /* Build configuration list for PBXNativeTarget "Pods-SHNDDateFormatter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5850A1ECF8CA1FEE005A1249F4325159 /* Debug */,
+				20CE582E2E6239043462AE84B320FDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE78DAC543FDE3820A53846491B83C /* Build configuration list for PBXNativeTarget "Pods-SHNDDateFormatter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072702819E5390E05DE003E5E442BF01 /* Debug */,
+				F9F7CD42640D07EA34E707292768DAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

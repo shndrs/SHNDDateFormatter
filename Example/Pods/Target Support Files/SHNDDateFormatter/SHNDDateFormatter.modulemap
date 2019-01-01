@@ -1,0 +1,6 @@
+framework module SHNDDateFormatter {
+  umbrella header "SHNDDateFormatter-umbrella.h"
+
+  export *
+  module * { export * }
+}

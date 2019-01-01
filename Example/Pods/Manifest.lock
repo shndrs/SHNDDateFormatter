@@ -1,0 +1,16 @@
+PODS:
+  - SHNDDateFormatter (0.1.0)
+
+DEPENDENCIES:
+  - SHNDDateFormatter (from `../`)
+
+EXTERNAL SOURCES:
+  SHNDDateFormatter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SHNDDateFormatter: 33eee4b714a439dcfb747e55f1c495e936ddf5e9
+
+PODFILE CHECKSUM: 193840af7a84a6cb6c618344a9d1f8e50b8db6d2
+
+COCOAPODS: 1.5.3

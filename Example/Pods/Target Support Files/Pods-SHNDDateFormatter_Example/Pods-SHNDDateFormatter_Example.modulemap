@@ -1,0 +1,6 @@
+framework module Pods_SHNDDateFormatter_Example {
+  umbrella header "Pods-SHNDDateFormatter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
