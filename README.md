@@ -15,12 +15,12 @@ in example below i use it to set a UILabel. 😊😊
 
 ```Swift
     
-    let builderObject = SimpleDateBuilder(dateString: "01-01-2019",
-                                          inputDateFormat: "MM-dd-yyyy",
-                                          outputDateFormat: "MMM d, yyyy",
-                                          inputCalenderIdentifier: .gregorian,
-                                          outputCalenderIdentifier: .chinese,
-                                          outputLocale: "zh_Hans_CN")
+    let builderObject = DateBuilder(dateString: "01-01-2019",
+                                    inputDateFormat: "MM-dd-yyyy",
+                                    outputDateFormat: "MMM d, yyyy",
+                                    inputCalenderIdentifier: .gregorian,
+                                    outputCalenderIdentifier: .chinese,
+                                    outputLocale: "zh_Hans_CN")
     
     myLabel.text = SHNDDateFormatter(builder: builderObject).create()
 ```

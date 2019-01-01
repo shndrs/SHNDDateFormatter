@@ -16,7 +16,7 @@ public protocol SHNDDateStringBuilder {
     var outputLocale:String { get }
 }
 
-public struct SimpleDateBuilder:SHNDDateStringBuilder {
+public struct DateBuilder:SHNDDateStringBuilder {
     public var inputDateString: String
     public var inputDateFormat: String
     public var outputDateFormat: String
@@ -24,7 +24,7 @@ public struct SimpleDateBuilder:SHNDDateStringBuilder {
     public var outputCalenderIdentifier: NSCalendar.Identifier
     public var outputLocale: String
     
-    init(dateString:String,
+    public init(dateString:String,
          inputDateFormat: String,
          outputDateFormat: String,
          inputCalenderIdentifier: NSCalendar.Identifier,

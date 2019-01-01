@@ -16,7 +16,7 @@ open class SHNDDateFormatter {
     private(set) var outputCalenderIdentifier: NSCalendar.Identifier
     private(set) var outputLocale: String
     
-    init(builder:SHNDDateStringBuilder) {
+    public init(builder:SHNDDateStringBuilder) {
         self.inputDateString = builder.inputDateString
         self.inputDateFormat = builder.inputDateFormat
         self.outputDateFormat = builder.outputDateFormat
