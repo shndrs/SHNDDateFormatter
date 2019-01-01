@@ -25,8 +25,7 @@ in example below i use it to set a UILabel. 😊😊
     myLabel.text = SHNDDateFormatter(builder: builderObject).create()
 ```
 
-inputString = "01-01-2019"
-outputString = "冬月 26, 0035"
+inputString = "01-01-2019"                       outputString = "冬月 26, 0035"
 
 
 
