@@ -41,6 +41,8 @@ let convertedNumber = SHNDNumberFormatter(locale: "en_US",
 inputNumber = 150000.45 ,
 outputString = "150,000.45 US dollars"
 
+more about NumberFormatter. Style : [AppleDoc](https://developer.apple.com/documentation/foundation/numberformatter/style)
+
 ## Requirements
 swift 4.0 or later
 ## Installation
