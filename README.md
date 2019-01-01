@@ -8,9 +8,31 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+actually this so simple:
+
+first you should build an object of what kinda format that you want, then use it wherever you want,
+in example below i use it to set a UILabel. 😊😊
+
+```Swift
+    
+    let builderObject = SimpleDateBuilder(dateString: "01-01-2019",
+                                          inputDateFormat: "MM-dd-yyyy",
+                                          outputDateFormat: "MMM d, yyyy",
+                                          inputCalenderIdentifier: .gregorian,
+                                          outputCalenderIdentifier: .chinese,
+                                          outputLocale: "zh_Hans_CN")
+    
+    myLabel.text = SHNDDateFormatter(builder: builderObject).create()
+```
+
+inputString = "01-01-2019"
+outputString = "冬月 26, 0035"
+
+
+
 
 ## Requirements
-
+swift 4.0 or later
 ## Installation
 
 SHNDDateFormatter is available through [CocoaPods](https://cocoapods.org). To install
