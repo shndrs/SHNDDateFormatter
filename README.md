@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-#SHNDDateFormatter
+# SHNDDateFormatter
 
 actually this so simple:
 
@@ -30,8 +30,16 @@ in example below i use it to set a UILabel. 😊😊
 
 inputString = "01-01-2019"                       outputString = "冬月 26, 0035"
 
-#SHNDNumberFormatter
+# SHNDNumberFormatter
 
+```Swift
+
+let convertedNumber = SHNDNumberFormatter(locale: "en_US",
+                                          number: NSNumber(value: 150000.45),
+                                          numberStyle: .currencyPlural).convertedValue()
+```
+inputNumber = 150000.45 ,
+outputString = "150,000.45 US dollars"
 
 ## Requirements
 swift 4.0 or later
