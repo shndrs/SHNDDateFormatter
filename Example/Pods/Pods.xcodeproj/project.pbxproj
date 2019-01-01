@@ -12,6 +12,7 @@
 		2C83DA05D29DEEC629DFE9D7E20EB0AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		2F4A2F2021DB629B00DEB1FF /* SHNDDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F1F21DB629B00DEB1FF /* SHNDDateFormatter.swift */; };
 		2F4A2F2221DB62E200DEB1FF /* SHNDDateStringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F2121DB62E200DEB1FF /* SHNDDateStringBuilder.swift */; };
+		2F4A2F5221DB853200DEB1FF /* SHNDNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A2F5121DB853200DEB1FF /* SHNDNumberFormatter.swift */; };
 		6F5CE5A6A62E1F8A7418A912F5D5EAA7 /* SHNDDateFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9657A5F2C5BAB6B0BF80CE5A90ED14D /* SHNDDateFormatter-dummy.m */; };
 		8D53D9E1675BCC069D1C842898335034 /* SHNDDateFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1810A9AAC8C499483D176426670605D /* SHNDDateFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97ABD490ED4752E2052799DBBF213094 /* Pods-SHNDDateFormatter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CDA842F2D7D150D333A0F8AA3B7460 /* Pods-SHNDDateFormatter_Example-dummy.m */; };
@@ -44,6 +45,7 @@
 		2B0FC0BB0721394F2C0C8EF79D6D29D7 /* Pods-SHNDDateFormatter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDDateFormatter_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2F4A2F1F21DB629B00DEB1FF /* SHNDDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDDateFormatter.swift; path = SHNDDateFormatter/Classes/SHNDDateFormatter.swift; sourceTree = "<group>"; };
 		2F4A2F2121DB62E200DEB1FF /* SHNDDateStringBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDDateStringBuilder.swift; path = SHNDDateFormatter/Classes/SHNDDateStringBuilder.swift; sourceTree = "<group>"; };
+		2F4A2F5121DB853200DEB1FF /* SHNDNumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDNumberFormatter.swift; path = SHNDDateFormatter/Classes/SHNDNumberFormatter.swift; sourceTree = "<group>"; };
 		36945231FD9DC13AB9CB8D3822E1E71B /* Pods-SHNDDateFormatter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHNDDateFormatter_Tests-dummy.m"; sourceTree = "<group>"; };
 		384E2C60871E8EFACBA80166A48DAD96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		39D4CB4BE3102DB286A686D57873B3AD /* Pods-SHNDDateFormatter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHNDDateFormatter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				F1CD6DD7CE58A6D43352B20F7289C40B /* Support Files */,
 				2F4A2F1F21DB629B00DEB1FF /* SHNDDateFormatter.swift */,
 				2F4A2F2121DB62E200DEB1FF /* SHNDDateStringBuilder.swift */,
+				2F4A2F5121DB853200DEB1FF /* SHNDNumberFormatter.swift */,
 			);
 			name = SHNDDateFormatter;
 			path = ../..;
@@ -375,6 +378,7 @@
 			files = (
 				2F4A2F2021DB629B00DEB1FF /* SHNDDateFormatter.swift in Sources */,
 				6F5CE5A6A62E1F8A7418A912F5D5EAA7 /* SHNDDateFormatter-dummy.m in Sources */,
+				2F4A2F5221DB853200DEB1FF /* SHNDNumberFormatter.swift in Sources */,
 				2F4A2F2221DB62E200DEB1FF /* SHNDDateStringBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

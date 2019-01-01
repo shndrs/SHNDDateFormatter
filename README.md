@@ -8,6 +8,9 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+#SHNDDateFormatter
+
 actually this so simple:
 
 first you should build an object of what kinda format that you want, then use it wherever you want,
@@ -27,7 +30,7 @@ in example below i use it to set a UILabel. 😊😊
 
 inputString = "01-01-2019"                       outputString = "冬月 26, 0035"
 
-
+#SHNDNumberFormatter
 
 
 ## Requirements
