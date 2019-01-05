@@ -20,7 +20,7 @@ public class SHNDNumberFormatter {
     }
     
     @discardableResult
-    public func convertedValue() -> String {
+    public func convertValue() -> String {
         let locale = Locale(identifier: self.locale)
         let formatter = NumberFormatter()
         formatter.numberStyle = self.numberStyle

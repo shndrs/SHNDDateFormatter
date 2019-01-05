@@ -36,7 +36,7 @@ inputString = "01-01-2019"                       outputString = "冬月 26, 0035
 
 let convertedNumber = SHNDNumberFormatter(locale: "en_US",
                                           number: NSNumber(value: 150000.45),
-                                          numberStyle: .currencyPlural).convertedValue()
+                                          numberStyle: .currencyPlural).convertValue()
 ```
 inputNumber = 150000.45 ,
 outputString = "150,000.45 US dollars"
@@ -45,7 +45,7 @@ outputString = "150,000.45 US dollars"
 ```Swift
 let convertedNumber = SHNDNumberFormatter(locale: "fa_IR",
                                           number: NSNumber(value: 0.15),
-                                          numberStyle: .percent).convert()
+                                          numberStyle: .percent).convertValue()
 ```
 inputNumber = 0.15 ,
 outputString = "۱۵%"
