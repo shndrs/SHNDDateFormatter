@@ -35,6 +35,10 @@ With this library you can convert your Date Strings that comes from API or anywh
 
   s.swift_version = '4.0'
   s.source_files = 'SHNDDateFormatter/Classes/**/*'
+  s.test_spec 'Tests' do |test_spec|
+      test_spec.source_files = 'Tests/*.{h,m}'
+      test_spec.dependency 'OCMock'
+  end
   
   # s.resource_bundles = {
   #   'SHNDDateFormatter' => ['SHNDDateFormatter/Assets/*.png']
@@ -42,5 +46,5 @@ With this library you can convert your Date Strings that comes from API or anywh
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'Foundation'
-  s.dependency 'SHNDDateFormatter'
+  # s.dependency 'SHNDDateFormatter'
 end
