@@ -18,17 +18,19 @@ in example below i use it to set a UILabel. 😊😊
 
 ```Swift
     
-    let builderObject = DateBuilder(dateString: "01-01-2019",
-                                    inputDateFormat: "MM-dd-yyyy",
-                                    outputDateFormat: "MMM d, yyyy",
-                                    inputCalenderIdentifier: .gregorian,
-                                    outputCalenderIdentifier: .chinese,
-                                    outputLocale: "zh_Hans_CN")
+    let builderObject = DateBuilder { (builder) in
+        builder.inputDateString = "01-01-2019"
+        builder.inputDateFormat = "MM-dd-yyyy"
+        builder.outputDateFormat = "MMM d, yyyy"
+        builder.inputCalenderIdentifier = .gregorian
+        builder.outputCalenderIdentifier = .chinese
+        builder.outputLocale = "zh_Hans_CN"
+    }
     
-    myLabel.text = SHNDDateFormatter(builder: builderObject).create()
+    let stringConvertedDate = SHNDDateFormatter(builder: builderObject)?.build()
 ```
 
-inputString = "01-01-2019"                       outputString = "冬月 26, 0035"
+inputString = "01-01-2019",                       outputString = "冬月 26, 0035"
 
 # SHNDNumberFormatter
 
