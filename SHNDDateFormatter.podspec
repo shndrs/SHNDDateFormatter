@@ -27,8 +27,12 @@ With this library you can convert your Date Strings that comes from API or anywh
   s.author           = { 'sahandraeisi1994@gmail.com' => 'sahandraeisi@yahoo.com' }
   s.source           = { :git => 'https://github.com/shndrs/SHNDDateFormatter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  
+  s.ios.deployment_target = '9.3'
+  s.osx.deployment_target = '10.12'
+  s.watchos.deployment_target = "3.2"
+  s.tvos.deployment_target = '10.2'
 
-  s.ios.deployment_target = '8.0'
   s.swift_version = '4.0'
   s.source_files = 'SHNDDateFormatter/Classes/**/*'
   
@@ -38,5 +42,5 @@ With this library you can convert your Date Strings that comes from API or anywh
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'Foundation'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SHNDDateFormatter'
 end
