@@ -14,11 +14,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 actually this so simple:
 
 first you should build an object of what kinda format that you want, then use it wherever you want,
-in example below i use it to set a UILabel. 😊😊
+in example i just printed it. 😊😊
 
 ```Swift
     
     let builderObject = DateBuilder { (builder) in
+    
         builder.inputDateString = "01-01-2019"
         builder.inputDateFormat = "MM-dd-yyyy"
         builder.outputDateFormat = "MMM d, yyyy"
@@ -28,6 +29,7 @@ in example below i use it to set a UILabel. 😊😊
     }
     
     let stringConvertedDate = SHNDDateFormatter(builder: builderObject)?.build()
+    print(stringConvertedDate)
 ```
 
 inputString = "01-01-2019",                       outputString = "冬月 26, 0035"
