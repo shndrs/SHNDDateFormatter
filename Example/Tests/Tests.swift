@@ -4,6 +4,10 @@ import Foundation
 
 class Tests: XCTestCase {
     
+    override func setUp() {
+        super.setUp()
+    }
+    
     func testSHNDDateFormatter() {
         
         let expected = "冬月 26, 0035"
@@ -30,7 +34,6 @@ class Tests: XCTestCase {
             builder.number = NSNumber(value: 150000.45)
             builder.numberStyle = .currencyPlural
         }
-        
         let convertedNumber = SHNDNumberFormatter(builder: builderObject)?.convert()
         
         XCTAssertEqual(expected, convertedNumber)

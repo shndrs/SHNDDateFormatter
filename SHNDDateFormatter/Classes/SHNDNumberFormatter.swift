@@ -35,7 +35,10 @@ open class SHNDNumberFormatter {
     
     public init?(builder: NumberBuilder) {
         
-        if let locale = builder.locale, let number = builder.number , let numberStyle = builder.numberStyle {
+        if let locale = builder.locale,
+            let number = builder.number ,
+            let numberStyle = builder.numberStyle {
+        
             self.locale = locale
             self.number = number
             self.numberStyle = numberStyle
