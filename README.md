@@ -17,7 +17,6 @@ first you should build an object of what kinda format that you want, then use it
 in example i just printed it. 😊😊
 
 ```Swift
-    
     let builderObject = DateBuilder { (builder) in
     
         builder.inputDateString = "01-01-2019"
@@ -38,18 +37,27 @@ inputString = "01-01-2019",                       outputString = "冬月 26, 003
 
 ```Swift
 
-let convertedNumber = SHNDNumberFormatter(locale: "en_US",
-                                          number: NSNumber(value: 150000.45),
-                                          numberStyle: .currencyPlural).convertValue()
+let builderObject = NumberBuilder { (builder) in
+    builder.locale = "en_US"
+    builder.number = NSNumber(value: 150000.45)
+    builder.numberStyle = .currencyPlural
+}
+
+let convertedValue = SHNDNumberFormatter(builder: builderObject)?.convert()
 ```
 inputNumber = 150000.45 ,
 outputString = "150,000.45 US dollars"
 
 
 ```Swift
-let convertedNumber = SHNDNumberFormatter(locale: "fa_IR",
-                                          number: NSNumber(value: 0.15),
-                                          numberStyle: .percent).convertValue()
+
+let builderObject = NumberBuilder { (builder) in
+    builder.locale = "fa_IR"
+    builder.number = NSNumber(value: 0.15)
+    builder.numberStyle = .percent
+}
+
+let convertedValue = SHNDNumberFormatter(builder: builderObject)?.convert()
 ```
 inputNumber = 0.15 ,
 outputString = "۱۵%"
