@@ -46,6 +46,7 @@ let builderObject = NumberBuilder { (builder) in
 }
 
 let convertedValue = SHNDNumberFormatter(builder: builderObject)?.convert()
+print(convertedValue)
 ```
 inputNumber = 150000.45 ,
 outputString = "150,000.45 US dollars"
@@ -60,6 +61,7 @@ let builderObject = NumberBuilder { (builder) in
 }
 
 let convertedValue = SHNDNumberFormatter(builder: builderObject)?.convert()
+print(convertedValue)
 ```
 inputNumber = 0.15 ,
 outputString = "۱۵%"
