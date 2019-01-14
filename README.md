@@ -69,7 +69,7 @@ more about NumberFormatter.Style 👉🏻 [Apple Document](https://developer.app
 
 
 ## Requirements
-swift 4.0 or later
+Swift 4.0 or later
 ## Installation
 
 SHNDDateFormatter is available through [CocoaPods](https://cocoapods.org). To install
