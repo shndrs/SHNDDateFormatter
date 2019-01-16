@@ -66,9 +66,21 @@ print(convertedValue)
 inputNumber = 0.15 ,
 outputString = "۱۵%"
 
+| Style  | en_US Locale |
+| ------------- | ------------- |
+| .none   | 1235  |
+| .decimal  | 1,234.568  |
+| .percent  | 12%  |
+| .scientific  | 1.2345678E3  |
+| .spellOut  | one hundred twenty-three  |
+| .ordinal  | 3rd  |
+| .currency  | $1,234.57  |
+| .currencyAccounting  | ($1,234.57)  |
+| .currencyISOCode  | USD1,234.57  |
+| .currencyPlural  | 1,234.57 US dollars  |
+
 
 more about NumberFormatter.Style 👉🏻 [Apple Document](https://developer.apple.com/documentation/foundation/numberformatter/style)
-
 
 ## Requirements
 Swift 4.0 or later
