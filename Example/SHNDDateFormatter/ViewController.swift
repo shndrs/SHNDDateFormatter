@@ -26,20 +26,20 @@ class ViewController: UIViewController {
             builder.inputDateFormat = "MM-dd-yyyy"
             builder.outputDateFormat = "MMM d, yyyy"
             builder.inputCalenderIdentifier = .gregorian
-            builder.outputCalenderIdentifier = .chinese
-            builder.outputLocale = "zh_Hans_CN"
+            builder.outputCalenderIdentifier = .persian
+            builder.outputLocale = "fa_IR"
         }
         
-        let stringConvertedDate = SHNDDateFormatter(builder: builderObject)?.build()
+        guard let stringConvertedDate = SHNDDateFormatter(builder: builderObject)?.build() else { return }
         print(stringConvertedDate as Any)
     }
     
     func numberFormatter() {
         
         let builderObject = NumberBuilder { (builder) in
-            builder.locale = "fa_IR"
-            builder.number = NSNumber(value: 0.15)
-            builder.numberStyle = .percent
+            builder.locale = "en_US"
+            builder.number = NSNumber(value: 1235)
+            builder.numberStyle = .currencyPlural
         }
         
         let convertedValue = SHNDNumberFormatter(builder: builderObject)?.convert()
