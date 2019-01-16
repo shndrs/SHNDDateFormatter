@@ -46,6 +46,7 @@ let builderObject = NumberBuilder { (builder) in
 }
 
 let convertedValue = SHNDNumberFormatter(builder: builderObject)?.convert()
+print(convertedValue)
 ```
 inputNumber = 150000.45 ,
 outputString = "150,000.45 US dollars"
@@ -60,16 +61,31 @@ let builderObject = NumberBuilder { (builder) in
 }
 
 let convertedValue = SHNDNumberFormatter(builder: builderObject)?.convert()
+print(convertedValue)
 ```
 inputNumber = 0.15 ,
 outputString = "۱۵%"
 
+## input = 1235
 
-more about NumberFormatter.Style 👉🏻 [Apple Document](https://developer.apple.com/documentation/foundation/numberformatter/style)
+| Style  | en_US Locale | fa_IR Locale |
+| ------------- | ------------- | ------------- |
+| .none   | nil  | nil  |
+| .decimal  | 1,235  | ۱٬۲۳۵  |
+| .percent  | 123,500%  | ۱۲۳٬۵۰۰٪  |
+| .scientific  | 1.235E3  | ۱٫۲۳۵×۱۰^۳  |
+| .spellOut  | one thousand two hundred thirty-five  |  یک هزار و دویست و سی و پنج  |
+| .ordinal  | 1,235th  | ۱٬۲۳۵.  |
+| .currency  | $1,235.00  |  ریال۱٬۲۳۵  |
+| .currencyAccounting  | $1,235.00  | ‎ریال ۱٬۲۳۵  |
+| .currencyISOCode  | USD1,235.00  | IRR۱٬۲۳۵  |
+| .currencyPlural  | 1,235.00 US dollars  | ۱٬۲۳۵ ریال ایران  |
 
+Just enter your locale and enjoy 😉.
+More about NumberFormatter.Style 👉🏻 [Apple Document](https://developer.apple.com/documentation/foundation/numberformatter/style)
 
 ## Requirements
-swift 4.0 or later
+Swift 4.0 or later
 ## Installation
 
 SHNDDateFormatter is available through [CocoaPods](https://cocoapods.org). To install
