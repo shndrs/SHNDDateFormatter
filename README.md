@@ -66,21 +66,23 @@ print(convertedValue)
 inputNumber = 0.15 ,
 outputString = "۱۵%"
 
-| Style  | en_US Locale |
-| ------------- | ------------- |
-| .none   | 1235  |
-| .decimal  | 1,234.568  |
-| .percent  | 12%  |
-| .scientific  | 1.2345678E3  |
-| .spellOut  | one hundred twenty-three  |
-| .ordinal  | 3rd  |
-| .currency  | $1,234.57  |
-| .currencyAccounting  | ($1,234.57)  |
-| .currencyISOCode  | USD1,234.57  |
-| .currencyPlural  | 1,234.57 US dollars  |
+## input = 1235
 
+| Style  | en_US Locale | fa_IR Locale |
+| ------------- | ------------- | ------------- |
+| .none   | nil  | nil  |
+| .decimal  | 1,235  | ۱٬۲۳۵  |
+| .percent  | 123,500%  | ۱۲۳٬۵۰۰٪  |
+| .scientific  | 1.235E3  | ۱٫۲۳۵×۱۰^۳  |
+| .spellOut  | one thousand two hundred thirty-five  |  یک هزار و دویست و سی و پنج  |
+| .ordinal  | 1,235th  | ۱٬۲۳۵.  |
+| .currency  | $1,235.00  |  ریال۱٬۲۳۵  |
+| .currencyAccounting  | $1,235.00  | ‎ریال ۱٬۲۳۵  |
+| .currencyISOCode  | USD1,235.00  | IRR۱٬۲۳۵  |
+| .currencyPlural  | 1,235.00 US dollars  | ۱٬۲۳۵ ریال ایران  |
 
-more about NumberFormatter.Style 👉🏻 [Apple Document](https://developer.apple.com/documentation/foundation/numberformatter/style)
+Just enter your locale and enjoy 😉.
+More about NumberFormatter.Style 👉🏻 [Apple Document](https://developer.apple.com/documentation/foundation/numberformatter/style)
 
 ## Requirements
 Swift 4.0 or later
