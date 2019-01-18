@@ -13,9 +13,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 # SHNDDateFormatter
 
-actually this so simple:
+Actually this so simple:
 
-first you should build an object of what kinda format that you want, then use it wherever you want,
+First you should build an object of what kinda format that you want, then use it wherever you want,
 in example i just printed it. 😊😊
 
 ```Swift
