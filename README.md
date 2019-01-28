@@ -85,10 +85,10 @@ Just enter your locale and enjoy 😉.
 More about NumberFormatter.Style 👉🏻 [Apple Document](https://developer.apple.com/documentation/foundation/numberformatter/style)
 
 ## Requirements
-Swift 4.0 or later
+Swift 4.0 or later, iOS 9.0+
 ## Installation
 
-SHNDDateFormatter is available through [CocoaPods](https://cocoapods.org). To install
+SHNDDateFormatter is available through [CocoaPods](https://cocoapods.org/pods/SHNDDateFormatter). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
