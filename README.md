@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 # SHNDDateFormatter
 
-Actually this so simple:
+<p>Actually it's so simple:</p>
 
 First you should build an object of what kinda format that you want, then use it wherever you want,
 in example i just printed it. 😊😊
