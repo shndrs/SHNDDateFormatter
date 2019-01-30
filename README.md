@@ -18,6 +18,14 @@ Actually this so simple:
 First you should build an object of what kinda format that you want, then use it wherever you want,
 in example i just printed it. 😊😊
 
+<p>Let's import SHNDDateFormatter</p>
+
+```Swift
+import SHNDDateFormatter
+
+```
+<p>Then 👇🏻</p>
+
 ```Swift
     let builderObject = DateBuilder { (builder) in
     
