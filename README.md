@@ -85,7 +85,9 @@ Just enter your locale and enjoy 😉.
 More about NumberFormatter.Style 👉🏻 [Apple Document](https://developer.apple.com/documentation/foundation/numberformatter/style)
 
 ## Requirements
-Swift 4.0 or later, iOS 9.0+
+<p>iOS 9.0+</p>
+<p>Xcode 10.1</p>  
+<p>Swift 4.0 or later</p>
 ## Installation
 
 SHNDDateFormatter is available through [CocoaPods](https://cocoapods.org/pods/SHNDDateFormatter). To install
