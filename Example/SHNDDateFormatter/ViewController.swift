@@ -38,8 +38,8 @@ class ViewController: UIViewController {
         
         let builderObject = NumberBuilder { (builder) in
             builder.locale = "en_US"
-            builder.number = NSNumber(value: 1235)
-            builder.numberStyle = .currencyPlural
+            builder.number = NSNumber(value: -124513)
+            builder.numberStyle = .decimal
         }
         
         let convertedValue = SHNDNumberFormatter(builder: builderObject)?.convert()
