@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHNDDateFormatter'
-  s.version          = '1.0.5'
+  s.version          = '1.0.8'
   s.summary          = 'Simple swift date string convertor'
 
   s.description      = <<-DESC
