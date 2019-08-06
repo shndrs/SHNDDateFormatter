@@ -1,6 +1,6 @@
 # SHNDDateFormatter
 
-[![CI Status](https://img.shields.io/travis/sahandraeisi1994@gmail.com/SHNDDateFormatter.svg?colorB=brightgreen)](https://travis-ci.org/sahandraeisi1994@gmail.com/SHNDDateFormatter)
+![swift-version](https://img.shields.io/badge/Swift-4-43bc59.svg)
 [![Version](https://img.shields.io/cocoapods/v/SHNDDateFormatter.svg?style=flat)](https://cocoapods.org/pods/SHNDDateFormatter)
 [![License](https://img.shields.io/cocoapods/l/SHNDDateFormatter.svg?style=flat)](https://cocoapods.org/pods/SHNDDateFormatter)
 [![Platform](https://img.shields.io/cocoapods/p/SHNDDateFormatter.svg?style=flat)](https://cocoapods.org/pods/SHNDDateFormatter)
