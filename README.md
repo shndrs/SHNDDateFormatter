@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/SHNDDateFormatter.svg?style=flat)](https://cocoapods.org/pods/SHNDDateFormatter)
 [![Platform](https://img.shields.io/cocoapods/p/SHNDDateFormatter.svg?style=flat)](https://cocoapods.org/pods/SHNDDateFormatter)
 
-<img src="https://raw.githubusercontent.com/Carthage/Carthage/master/Logo/PNG/colored.png" width="32px" height="32px" />  <img src="https://raw.githubusercontent.com/CocoaPods/shared_resources/master/img/CocoaPods-Logo-Highlight.png" width="128px" height="32px" />
+<img src="https://raw.githubusercontent.com/CocoaPods/shared_resources/master/img/CocoaPods-Logo-Highlight.png" width="128px" height="32px" />
 
 # How to Use
 
@@ -33,7 +33,7 @@ import SHNDDateFormatter
         builder.outputLocale = "zh_Hans_CN"
     }
     
-    let stringConvertedDate = SHNDDateFormatter(builder: builderObject)?.build()
+    let stringConvertedDate = SHNDDateFormatter(builder: builderObject).build()
     print(stringConvertedDate)
 ```
 
