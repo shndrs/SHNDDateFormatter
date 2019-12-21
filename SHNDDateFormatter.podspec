@@ -19,7 +19,6 @@ With this library you can convert your Date Strings that comes from API or anywh
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sahandraeisi1994@gmail.com' => 'sahandraeisi@yahoo.com' }
   s.source           = { :git => 'https://github.com/shndrs/SHNDDateFormatter.git', :tag => s.version.to_s }
-   s.social_media_url = 'https://linkedin.com/in/shndrs'
   
   s.ios.deployment_target = '9.3'
   s.watchos.deployment_target = "3.2"
