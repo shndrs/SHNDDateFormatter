@@ -13,7 +13,6 @@ public protocol NumberFormatterProtocol {
     var numberStyle: NumberFormatter.Style? { get }
 }
 
-
 public class NumberBuilder:NumberFormatterProtocol {
     
     public var locale: String?

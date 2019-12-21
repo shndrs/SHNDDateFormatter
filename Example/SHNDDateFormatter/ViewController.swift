@@ -30,7 +30,7 @@ class ViewController: UIViewController {
             builder.outputLocale = "fa_IR"
         }
         
-        guard let stringConvertedDate = SHNDDateFormatter(builder: builderObject)?.build() else { return }
+        let stringConvertedDate = SHNDDateFormatter(builder: builderObject).build()
         print(stringConvertedDate as Any)
     }
     

@@ -20,7 +20,7 @@ class Tests: XCTestCase {
             builder.outputCalenderIdentifier = .chinese
             builder.outputLocale = "zh_Hans_CN"
         }
-        let convertedDate = SHNDDateFormatter(builder: builderObject)?.build()
+        let convertedDate = SHNDDateFormatter(builder: builderObject).build()
         
         XCTAssertEqual(expected, convertedDate)
     }
