@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHNDDateFormatter'
-  s.version          = '1.0.8'
+  s.version          = '1.2.0'
   s.summary          = 'Simple swift date string convertor'
 
   s.description      = <<-DESC
@@ -22,7 +22,6 @@ With this library you can convert your Date Strings that comes from API or anywh
    s.social_media_url = 'https://linkedin.com/in/shndrs'
   
   s.ios.deployment_target = '9.3'
-  # s.osx.deployment_target = '10.12'
   s.watchos.deployment_target = "3.2"
   s.tvos.deployment_target = '10.2'
 
